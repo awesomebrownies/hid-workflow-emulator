@@ -3,7 +3,7 @@
 This is an USB rubber ducky workflow program written in **C++** utilizing the `Arduino mbed Framework` made for a `RP2040` MCU. By taking advantage of emulating an hid keyboard device, this small program can execute workflows to speed up work. It is intended to work with **Linux** as your primary operating system
 
 
-<img width="1599" height="389" alt="" src="https://github.com/user-attachments/assets/b0f49d0f-1f93-4520-ae0e-9ab3bb91f927" />
+[![Watch the video](https://github.com/user-attachments/assets/1490ec67-151f-4e69-8533-12c38b2ef67c)](https://youtu.be/6F82mTpxnZc)
 
 *Holding/Bridging the GPIO12 to GND button to change workflows*
 
