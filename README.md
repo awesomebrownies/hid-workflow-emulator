@@ -25,13 +25,22 @@ This is an USB rubber ducky workflow program written in **C++** utilizing the `A
 **Improved the code?** Feel free to create a [Pull Request](https://github.com/awesomebrownies/hid-workflow-emulator/pulls)
 
 ## Features
-* Select a different workflow by bridging the `GPIO12 pin` to a `GND pin` while using an internal pull-resistor on your MCU -- most effectively with a button
+* Select a different workflow by bridging the `GPIO12 pin` to a `GND pin` while using an internal pull-resistor on your MCU — most effectively with a button
 * Saves current workflow settings into flash
+## Future
+* Rework programming workflow
+  * Query programming language
+    * Java/Dart — Intellij:Project Selection Page
+    * Go/C++ — terminal, "cd ~/Documents/GitHub" /n, "nvim "
+    * Javascript — Visual Studio Code: Project Select in GitHub Folder
+    * None/Other — Skip query
+* Add copy-paste workflow
+* Add reboot confirm dialog
 ## Workflows
 * [0] Programming:
   * Queries for subworkflows
   * Opens "GitHub Desktop", & "Intellij"
-  * Runs a github repo analyzation script -- **requires** [mgitstatus](https://github.com/fboender/multi-git-status) utility to be installed
+  * Runs a github repo analyzation script — **requires** [mgitstatus](https://github.com/fboender/multi-git-status) utility to be installed
 * [1] Dual Boot:
   * Stores current OS, allows for an easy insert to switch operating systems
   * Temporarily changes efibootmgr settings to one-time reboot to windows
